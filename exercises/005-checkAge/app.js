@@ -1,7 +1,7 @@
 function checkAge(name, age) {
   // your code here
-  if(age<21) return "Go home";
-  else return "Welcome";
+  if(age<21) return `Go home ${name}`;
+  else return `Welcome,${name}`;
 }
-let output = checkAge("adrian",22);
+let output = checkAge("adrian",10);
 console.log(output);
